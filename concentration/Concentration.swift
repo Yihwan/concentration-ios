@@ -33,6 +33,10 @@ class Concentration
         }
     }
     
+    func reset() -> Void {
+
+    }
+    
     init(numberOfPairsOfCards: Int) {
         for _ in 0..<numberOfPairsOfCards {
             let card = Card()
@@ -41,4 +45,5 @@ class Concentration
         
         cards.shuffle()
     }
+
 }
