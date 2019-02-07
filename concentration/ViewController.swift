@@ -28,6 +28,8 @@ class ViewController: UIViewController
     
     @IBOutlet weak var flipCountLabel: UILabel!
     
+    @IBOutlet weak var scoreLabel: UILabel!
+    
     @IBAction func touchCard(_ sender: UIButton) {
         if let cardNumber = cardButtons.index(of: sender) {
             game.chooseCard(at: cardNumber)
@@ -59,10 +61,15 @@ class ViewController: UIViewController
         }
         
         updateFlipCount(game.flipCount)
+        updateScore(game.score)
     }
     
     func updateFlipCount(_ flipCount: Int) {
         flipCountLabel.text = "Flips: \(flipCount)"
+    }
+    
+    func updateScore(_ score: Int) {
+        scoreLabel.text = "Score: \(score)"
     }
     
     var emojis = [Int: String]()

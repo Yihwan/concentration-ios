@@ -167,7 +167,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44b-d1-pLJ">
-                                <rect key="frame" x="98" y="55" width="178" height="89"/>
+                                <rect key="frame" x="76" y="60" width="223" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="42"/>
                                 <color key="textColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -187,7 +187,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flips: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5f-Gk-eGl">
-                                <rect key="frame" x="98" y="117" width="178" height="89"/>
+                                <rect key="frame" x="87" y="117" width="201" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="42"/>
                                 <color key="textColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -201,6 +201,7 @@
                     </view>
                     <connections>
                         <outlet property="flipCountLabel" destination="G5f-Gk-eGl" id="yx3-92-Nd9"/>
+                        <outlet property="scoreLabel" destination="44b-d1-pLJ" id="kr3-ra-LwV"/>
                         <outletCollection property="cardButtons" destination="mwF-yH-NH4" collectionClass="NSMutableArray" id="OnJ-iw-TRa"/>
                         <outletCollection property="cardButtons" destination="UUa-7g-4kK" collectionClass="NSMutableArray" id="ePP-1D-DSV"/>
                         <outletCollection property="cardButtons" destination="Xpe-fX-mRX" collectionClass="NSMutableArray" id="Q6Y-xe-dka"/>
